@@ -1,4 +1,4 @@
-readme_content = """# 🚀 EcoExchange AI — Guía de Trabajo del Equipo
+# 🚀 EcoExchange AI — Guía de Trabajo del Equipo
 ## Hackathon Build With AI 2026 · Santa Cruz, Bolivia
 
 ---
@@ -37,11 +37,7 @@ Para evitar pisarse el código y trabajar en perfecta sincronía desde Visual St
 ### A. Control de Versiones Simple (Git & GitHub)
 1.  **Repositorio Central:** Trabajaremos sobre una rama principal (`main`) o una rama de desarrollo limpia (`dev`).
 2.  **Antes de empezar a programar:** Ejecuta siempre en tu terminal:
-    ```
-```text?code_stdout&code_event_index=2
-FILE_GENERATED: README.md
-
-```bash
+    ```bash
     git pull origin main
     ```
     *Justificación:* Esto descarga los cambios que tus compañeros hayan subido y evita los temidos conflictos de código (*merge conflicts*).
@@ -72,11 +68,3 @@ Al finalizar el tiempo, nuestro repositorio debe contener:
 2.  La carpeta `frontend/` con la interfaz web visualmente atractiva en verde y azul.
 3.  La carpeta `database/init.sql` con el script de tablas que ya creamos en PostgreSQL.
 4.  La carpeta `pitch/` con las diapositivas finales listas para la defensa del proyecto.
-
-¡La FICCT tiene un gran historial en competencias tecnológicas! Con este nivel de organización y pragmatismo, vamos a presentar un proyecto sumamente sólido frente al jurado del *Build With AI 2026*. ¡A darle con todo equipo! 🚀
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("FILE_GENERATED: README.md")
